@@ -1,0 +1,71 @@
+input{
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 2px solid rgba(95, 95, 95, 0.075);
+    width: 500px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 20px;
+    margin-bottom: 29px;
+    outline: none;
+}
+
+.text-h-style{
+    font-size: 2rem;
+    margin-bottom: 2px;
+    font-family: "montserrat";
+    color: rgb(50, 73, 59);
+}
+
+.btm-spc{
+    margin-bottom: 35px;
+}
+
+/* .form-bd{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.322);
+    border-right: 2px solid rgba(0, 0, 0, 0.322);
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgba(227, 245, 145, 0.07);
+    border: 2px solid rgba(95, 95, 95, 0.1);
+    
+}
+.form-bd{
+    width: 100%;
+    border-radius: 75px;
+    border: 2px solid rgba(238, 164, 213, 0.76);
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 25px 5px rgba(102, 43, 82, 0.589);
+}
+
+.itm-cnt{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.txt-styl{
+    font-family: "montserrat";
+    font-size: 2.5rem;
+}
+
+.txt-spc{
+    margin-bottom: 45px;
+}
+
+.mar{
+    margin-bottom: 5px;
+}
+br{
+    margin-bottom: 2px;
+}
+.line-gap{
+    line-height: 1.2;
+}

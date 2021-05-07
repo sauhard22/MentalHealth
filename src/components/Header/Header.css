@@ -1,0 +1,17 @@
+.padd{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-dark .navbar-brand{
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: black;
+}

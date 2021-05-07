@@ -1,0 +1,18 @@
+.bg{
+    background-color: #e9a8e0c0;
+    width: 100%;
+    
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.res-text{
+    max-width: 720px;
+}

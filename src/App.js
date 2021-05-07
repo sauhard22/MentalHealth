@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from './components/Main/Main'
+import {useState} from 'react'
+import Header from './components/Header/Header'
+import Home from './components/Home/Home'
 
 function App() {
+
+  const [route, setRoute] = useState('register')
+
+  function onRouteChange(route){
+    setRoute('register');
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {
+      route === 'home' ?
+        <Home/>
+      :
+        <div>
+        <Header onRouteChange={onRouteChange} route =  {route} setRoute={setRoute}/>
+        <Main onRouteChange={onRouteChange}  route =  {route} setRoute={setRoute}/>
+        </div>
+    }   
     </div>
   );
 }
