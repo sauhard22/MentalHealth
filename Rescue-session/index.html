@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>Rescue-session</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+.w3-container{height: 500px; width:1000px  ;margin-top:5%;text-align: center;}
+.button1{ position: absolute; top: 300px; left: 150px;}
+.button2{ position: absolute; top: 300px; right: 130px;}
+.
+
+
+</style>
+<body>
+
+
+
+<div class="w3-content w3-aqua" style="width:100%">
+  <div class="mySlides w3-container w3-aqua">
+    <h3>Rescue Session</h3>
+    <h1><b>Stress and overwhelm</b></h1>
+    <h1><i>3-5 minutes</i></h1>
+    
+  </div>
+
+  <div class="mySlides w3-container w3-aqua">
+    <h3>Stress and overwhelm</h3>
+    <h1><b>Hey there</b></h1>
+    <h1><i>We all experience stress from time to time.</i></h1>
+    
+  </div>
+
+  <div class="mySlides w3-container w3-aqua">
+    <h3>Stress and overwhelm</h3>
+    <h1><i>Sometimes it gets too much too handle and that's alright.</i></h1>
+    <h1><i>This happens to the best of us.</i></h1>
+    
+  </div>
+
+  <div class="mySlides w3-container w3-aqua">
+    <h3>Stress and overwhelm</h3>
+    <h1><i>Today, we'll help you relax and destress</i></h1>
+    <h1><i>&nbsp;</i></h1>
+    
+  </div>
+
+  <div class="mySlides w3-container w3-aqua">
+    <h1><b>Understanding your stress and overwhelm</b></h1>
+    <h1><i>&nbsp;</i></h1>
+    <audio id="myAudio" controls>
+        <source src="sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+  </div>
+
+  <div class="mySlides w3-container w3-aqua">
+    <h1><b>What about the situation is causing you stress</b></h1>
+    <h1><i>&nbsp;</i></h1>
+    
+    <input type="text" size="50" placeholder="try to identify your 'stressors'. ">
+    <h1><i>&nbsp;</i></h1>
+    
+  </div>
+  <button class="w3-button w3-black w3-left button1" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-right button2" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
