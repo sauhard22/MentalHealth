@@ -1,0 +1,10 @@
+.ftr-spc{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+.float-right {
+    float: right!important;
+}
+a{
+    text-decoration: none;
+}

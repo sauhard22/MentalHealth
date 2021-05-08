@@ -1,0 +1,5 @@
+.card.fixed{
+    height: 225px; 
+    width: 100%; 
+    display: block;
+}
