@@ -1,0 +1,69 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.width{
+    width: 100%;
+}
+
+.ftr{
+  background-color: cyan;
+}
+.align{
+  text-align: left;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: middle;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.row{
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.btn-wdth{
+  width: 200px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 60px;
+  background-color: #ffffff21;
+  color: black;
+  border-color: black;
+  outline: none;
+}
