@@ -2,6 +2,7 @@ import Main from './components/Main/Main'
 import {useState} from 'react'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
+import RescueSession from './components/Pages/Rescue-Sessions/RescueSession'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
         <Header onRouteChange={onRouteChange} route =  {route} setRoute={setRoute}/>
         <Main onRouteChange={onRouteChange}  route =  {route} setRoute={setRoute}/>
         </div>
-    }   
+    }  
+    {/*<RescueSession/>*/}
     </div>
   );
 }
