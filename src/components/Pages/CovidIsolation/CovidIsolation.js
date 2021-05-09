@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Cards from './components/Cards'
 import Navbar from './components/Navbar'
 
-function RescueSession() {
+function CovidIsolation() {
     return (
         <div>
             <Navbar/>
@@ -15,4 +15,4 @@ function RescueSession() {
     )
 }
 
-export default RescueSession
+export default CovidIsolation

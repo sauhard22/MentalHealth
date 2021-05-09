@@ -3,10 +3,10 @@ import './SignUp.css'
 const SignUp = ({onRouteChange, route, setRoute}) => {
 
     function toRegister() {
-        setRoute('register')
+        setRoute('home')
     }
     function toSignIn() {
-        setRoute('signin')
+        setRoute('home')
     }
     function toHome(){
         setRoute('home')
