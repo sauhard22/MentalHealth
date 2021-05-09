@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>Rescue-session</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  .mySlides {
+    display: none;
+  }
+
+  .w3-container {
+    height: 500px;
+    width: 1000px;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .button1 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+  }
+
+  .button2 {
+    position: absolute;
+    top: 300px;
+    right: 130px;
+  }
+
+  
+</style>
+
+<body>
+
+
+
+  <div class="w3-content w3-aqua" style="width:100%">
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      
+      <h3>Day 1</h3>
+      <h1><b>Learn how social isolation affects you</b></h1>
+      
+      <h1><i>3-5 minutes</i></h1>
+
+    </div>
+
+    <!--2nd slide -->
+
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <h1><b>Hey there 👋</b></h1>
+      <h1><i>In this check in,try to reflect this moment on how this social isolation has been for you so far.</i></h1>
+
+    </div>
+    <!--3rd slide -->
+
+
+    <div class="mySlides w3-container w3-aqua">
+     
+      <h3><b>How social isolation affects you</b></h3>
+
+      <h1>What has made you the most anxious or stressed</h1>
+      <h1><i>&nbsp;</i></h1>
+
+<input type="text" size="50" placeholder="Eg.it could be a situation you experienced or something you've been experiencing for a while ">
+<h1><i>&nbsp;</i></h1>
+</div>
+   
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+        <h3><b>How social isolation affects you?</b></h3>
+
+      <h1><b>What thoughts are usually running through your head?</b></h1>
+      <h1><i>&nbsp;</i></h1>
+
+      <input type="text" size="50" placeholder="it can feel better to get everything off your chest rather than keeping it in.>
+
+    </div>
+
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      
+      
+      <h1><i>Well done 😀</i></h1>
+      <h2><i>Now, take a deep breath.</i>
+      </h2>
+    </div>
+
+
+    
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      
+      <h2><i>Although it can be a hard thinking to admit sometimes, it's important to acknowledge your struggles.</i></h2>
+
+
+    </div>
+
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      
+      <h2><i>This is because journaling your thoughts can often help you regain a sense of control.</i></h2>
+
+
+    </div>
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <h2><i>It can also help reduce some of the stress and anxiety you feel about the situation.</i></h2>
+
+
+    </div>
+    <div class="mySlides w3-container w3-aqua">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <h2><i>Next time you are feeling lonely, isolated, stressed, or anxious, try journaling your thoughts!</i></h2>
+
+
+    </div>
+
+
+
+
+      <div class="mySlides w3-container w3-aqua">
+        <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <h1><b>Well done!🎉</b></h1>
+
+        <h3>You've completed the check in.</h3>
+      </div>
+
+
+      <button class="w3-button w3-black w3-left button1" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-right button2" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = x.length}
+      if (n < 1) {slideIndex = 1}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+  </script>
+
+</body>
+
+</html>
