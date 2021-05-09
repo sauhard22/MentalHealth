@@ -1,9 +1,10 @@
-1. Instructions to run code
-## cd MentalHealth
+# 1. Instructions to run code
 
-## npm install
+### 1. cd MentalHealth
 
-## npm start
+### 2. npm install
+
+### 3. npm start
 2. Dependencies
 @twbs
 twbs / bootstrap
