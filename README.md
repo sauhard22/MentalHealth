@@ -6,8 +6,15 @@
 
 ### 3. npm start
 
+# 2. Technolgies Used
 
-# 2. Dependencies
+### 1. React
+### 2. Html
+### 3. CSS
+### 5. JavaScript
+
+
+# 3. Dependencies
 ### @twbs
 twbs / bootstrap
 ^ 5.0.0
@@ -31,5 +38,5 @@ tachyons-css / tachyons
 GoogleChrome / web-vitals
 ^ 1.1.2
 
-# 3. Bootstrap footer by https://mdbootstrap.com/docs/b4/jquery/navigation/footer/
+# 4. Bootstrap footer by https://mdbootstrap.com/docs/b4/jquery/navigation/footer/
 
