@@ -42,5 +42,7 @@ tachyons-css / tachyons
 GoogleChrome / web-vitals
 ^ 1.1.2
 
-# 4. Bootstrap footer by https://mdbootstrap.com/docs/b4/jquery/navigation/footer/
+# 4. Bootstrap footer by - 
+
+### https://mdbootstrap.com/docs/b4/jquery/navigation/footer/
 
