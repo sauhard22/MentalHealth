@@ -12,7 +12,7 @@ function Header({setRoute}) {
     return (
         <div>
             <Navbar fixed ="top" collapseOnSelect expand="lg" bg="" variant="dark" className="pl5 pr5 padd">
-                <Navbar.Brand href="#home" className=" txt-clr">HandlePressure</Navbar.Brand>
+                <Navbar.Brand href="#home" className=" txt-clr">MindDwell</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">

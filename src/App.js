@@ -15,7 +15,7 @@ function App() {
   function onRouteChange(route){
     setRoute('register');
   }
-  
+ 
   return (
     <div>
     {
@@ -32,6 +32,7 @@ function App() {
         )
     }
     </div>
+
   );
 }
 
