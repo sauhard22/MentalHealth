@@ -15,7 +15,7 @@
 ### 1. React
 ### 2. Html
 ### 3. CSS
-### 5. JavaScript
+### 4. JavaScript
 
 
 # 3. Dependencies
